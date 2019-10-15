@@ -26,7 +26,7 @@
         box-shadow: 0px 5px 15px 0px #E1E1E1;
     }
     .num{
-        width:325px;
+        width:335px;
         margin:5px;
         border:none;
         font-size:14px;
@@ -60,10 +60,10 @@
         font-weight:normal;
     }
     .monbtn{
-        width:70px;
+        width:80px;
         border-radius:5px;
         border-bottom:4px solid #bf203d;
-        text-align:center;
+        text-align:Center;
     }
     </style>
   </head>
@@ -83,7 +83,7 @@
      <option value="Multiplication">*</option>
      <option value="Division">:</option>
      </select>
-     <button type="submit" class="btn btn-danger monbtn">Calcul</button>
+     <button type="submit" class="btn btn-danger monbtn">Calculer</button>
      </form>
         <input type="text" value="{{$res}}" class="num">
   </div>
