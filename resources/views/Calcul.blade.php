@@ -61,7 +61,9 @@
     }
     .monbtn{
         width:70px;
-        text-align:center
+        border-radius:5px;
+        border-bottom:4px solid #bf203d;
+        text-align:center;
     }
     </style>
   </head>
